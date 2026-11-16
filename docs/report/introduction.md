@@ -1,0 +1,7 @@
+# Introduction
+
+Smart buildings account for a substantial portion of global electricity consumption. Accurate forecasting of daily energy use enables demand‑side management, cost reduction, and integration of renewable resources. The **Building Daily Generation (BDG2)** dataset provides hourly electricity meter readings for thousands of commercial and residential buildings across multiple regions. This project transforms the raw hourly data into daily aggregates, engineers rich features, and applies machine‑learning models to predict daily consumption.
+
+We adopt a **Randomized Block Design (RBD)** to compare three modeling approaches—Decision Tree, Random Forest, and Gradient Boosting—while controlling for temporal and building‑specific block effects. The experiments follow a strict chronological train/validation/test split to prevent data leakage. Both regression (continuous consumption) and binary classification (above‑median consumption) tasks are evaluated using standard metrics.
+
+The remainder of this report outlines the dataset, preprocessing pipeline, feature engineering, experimental design, model training, and evaluation results, culminating in a discussion of findings and future work.

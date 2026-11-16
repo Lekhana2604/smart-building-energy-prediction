@@ -1,0 +1,7 @@
+# Abstract
+
+This study investigates daily electricity consumption forecasting for smart buildings using the **BDG2** dataset. We preprocess raw hourly meter readings, aggregate them to daily totals, and engineer a comprehensive set of 37 features spanning temporal, environmental, and building‑specific attributes. An experimental Randomized Block Design (RBD) allocates treatments to three modeling approaches: **Decision Tree**, **Random Forest**, and **Gradient Boosting**. Models are trained on chronologically split data to avoid leakage.
+
+**Regression performance** (MAE, RMSE, R²) and **binary classification performance** (accuracy, precision, recall, F1‑score) for predicting whether daily consumption exceeds the median are reported. Ensembles (Random Forest and Gradient Boosting) outperform the Decision Tree baseline, achieving up to 1.8 % lower MAE and 0.97 + F1‑score. The results demonstrate the feasibility of accurate, data‑driven energy consumption prediction for building‑level energy management.
+
+Keywords: smart buildings, electricity consumption, daily aggregation, feature engineering, decision tree, random forest, gradient boosting, randomized block design, regression, classification.

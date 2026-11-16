@@ -1,0 +1,4 @@
+Treatment,ModelFile,BestParams,Test_MAE,Test_RMSE,Test_R2,TrainRows,ValRows,TestRows
+DecisionTree,models\decisiontree_model.pkl,{'max_depth': 10},244.37810817369643,1005.5668347572192,0.9704323968403904,156640,81519,82336
+RandomForest,models\randomforest_model.pkl,"{'max_depth': 10, 'n_estimators': 100}",213.6155892387425,720.1092197175817,0.988425704821765,162663,84641,85132
+GradientBoosting,models\gradientboosting_model.pkl,"{'learning_rate': 0.05, 'n_estimators': 200}",203.4074225723406,644.3176357721705,0.9858584083803579,167806,86508,87567

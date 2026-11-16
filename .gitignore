@@ -1,0 +1,38 @@
+# Python artifacts
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# VS Code settings
+.vscode/
+# Environment files
+.env
+# Data directories (keep raw data private)
+/data/raw/
+/data/interim/
+/data/processed/
+# Model files (large binaries)
+/models/*.pkl
+/models/*.h5
+# Results - large images/plots (optional, keep if needed)
+/results/graphs/*.png
+# Build artifacts
+build/
+.dist/
+# Distribution / packaging
+*.egg-info/
+# Logs
+*.log
+# Temporary files
+*.tmp
+# OS generated files
+.DS_Store
+Thumbs.db
+# Jupyter notebooks outputs (if you prefer)
+*.nbconvert.ipynb
+# Miscellaneous
+*.sqlite3
+# Ignore the Antigravity brain directory (if appears inside repo)
+brain/

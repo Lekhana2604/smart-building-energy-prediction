@@ -1,0 +1,14 @@
+Metric,Value
+Total Raw Buildings in Metadata,"1,636"
+Buildings with Electricity Meter,"1,578"
+Buildings Dropped (No Electricity Meter),58
+Buildings Dropped (Missing Space Usage),19
+Buildings Dropped (Missingness > 10.0%),119
+Eligible Cleaned Buildings Retained,1440
+Raw Weather Records Across 19 Sites,"331,166"
+Cleaned Complete Weather Records,"333,336 (19 sites * 17,544 h)"
+Weather Air Temperature Missing Values Remaining,0 (100% complete)
+Weather Dew Point Missing Values Remaining,0 (100% complete)
+Electricity Negative Values Found,0
+Mean Daily Usability Rate Across Buildings,95.46%
+Pipeline Execution Time,34.29 seconds

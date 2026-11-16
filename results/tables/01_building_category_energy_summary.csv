@@ -1,0 +1,17 @@
+primaryspaceusage,building_count,mean_sqm,mean_hourly_kwh,median_hourly_kwh,std_hourly_kwh
+Education,604,9362.74,183.79,83.82,50.15
+Office,296,7982.23,141.34,52.57,51.13
+Entertainment/public assembly,203,6957.44,95.43,21.12,33.12
+Public services,166,5978.29,94.15,32.96,30.96
+Lodging/residential,149,7947.16,85.1,53.71,25.38
+Healthcare,27,12413.47,287.2,168.31,80.44
+Other,26,2830.09,43.13,10.64,17.29
+Parking,23,26954.1,40.59,27.74,15.8
+Warehouse/storage,14,4068.09,37.88,16.46,17.67
+Manufacturing/industrial,11,3891.1,75.99,47.3,43.33
+Retail,11,3650.91,68.02,39.88,36.07
+Services,9,20592.57,89.95,76.33,24.04
+Technology/science,7,5559.57,112.88,78.61,54.54
+Food sales and service,6,3526.15,79.63,53.97,40.93
+Utility,4,2888.9,158.18,68.04,122.05
+Religious worship,3,1047.6,4.25,4.7,2.31

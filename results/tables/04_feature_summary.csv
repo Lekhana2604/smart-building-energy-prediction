@@ -1,0 +1,38 @@
+Feature,Category,Non-Null Count,NaN Count,Mean,Std,Min,Max
+day_of_week,Calendar,994812,0,3.0188,2.0013,0.0,6.0
+is_weekend,Calendar,994812,0,0.2897,0.4536,0.0,1.0
+month,Calendar,994812,0,6.6064,3.4007,1.0,12.0
+season,Calendar,994812,0,1.5318,1.107,0.0,3.0
+day_of_year,Calendar,994812,0,185.9858,103.8774,1.0,366.0
+week_of_year,Calendar,994812,0,26.7849,14.8337,1.0,52.0
+lag_1_day,Lag/Rolling,994812,0,3362.7007,6013.609,0.0,149109.91
+lag_7_days,Lag/Rolling,994812,0,3363.4778,6013.4159,0.0,149109.91
+rolling_7d_mean,Lag/Rolling,994812,0,3363.4335,5963.7964,0.0,131316.7057
+rolling_14d_mean,Lag/Rolling,994812,0,3363.7739,5953.3422,0.0,119743.1029
+rolling_7d_std,Lag/Rolling,994812,0,331.5047,767.613,0.0,37880.9353
+air_temperature_mean,Weather,994812,0,15.846,9.6745,-24.79,40.46
+air_temperature_min,Weather,994812,0,11.4487,9.368,-28.9,35.6
+air_temperature_max,Weather,994812,0,20.611,10.5224,-20.6,48.3
+dew_temperature_mean,Weather,994812,0,8.4886,9.4623,-31.08,25.19
+wind_speed_mean,Weather,994812,0,3.6292,1.6597,0.19,14.42
+precip_depth_1hr_total,Weather,994812,0,14.5587,55.3104,-24.0,1175.0
+sea_lvl_pressure_mean,Weather,994812,0,1016.1765,6.7448,977.19,1047.69
+cooling_degree_day,Weather,994812,0,2.8468,4.3452,0.0,22.46
+temp_range,Weather,994812,0,9.1623,3.7911,0.0,23.9
+log_sqm,Building,994812,0,8.3941,1.2599,3.3069,11.3058
+yearbuilt_norm,Building,994812,0,1968.7941,21.5326,1900.0,2017.0
+usage_Entertainment/public assembly,Usage Dummy,994812,0,0.1255,0.3313,0.0,1.0
+usage_Food sales and service,Usage Dummy,994812,0,0.0042,0.0649,0.0,1.0
+usage_Healthcare,Usage Dummy,994812,0,0.0182,0.1336,0.0,1.0
+usage_Lodging/residential,Usage Dummy,994812,0,0.1016,0.3021,0.0,1.0
+usage_Manufacturing/industrial,Usage Dummy,994812,0,0.0078,0.0878,0.0,1.0
+usage_Office,Usage Dummy,994812,0,0.1942,0.3956,0.0,1.0
+usage_Other,Usage Dummy,994812,0,0.0157,0.1244,0.0,1.0
+usage_Parking,Usage Dummy,994812,0,0.0158,0.1247,0.0,1.0
+usage_Public services,Usage Dummy,994812,0,0.1052,0.3069,0.0,1.0
+usage_Religious worship,Usage Dummy,994812,0,0.0021,0.0459,0.0,1.0
+usage_Retail,Usage Dummy,994812,0,0.0074,0.0859,0.0,1.0
+usage_Services,Usage Dummy,994812,0,0.0064,0.0797,0.0,1.0
+usage_Technology/science,Usage Dummy,994812,0,0.0042,0.0643,0.0,1.0
+usage_Utility,Usage Dummy,994812,0,0.002,0.0445,0.0,1.0
+usage_Warehouse/storage,Usage Dummy,994812,0,0.0096,0.0977,0.0,1.0

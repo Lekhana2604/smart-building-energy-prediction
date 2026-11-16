@@ -1,0 +1,15 @@
+Metric,Value
+Target Variable,Daily Electricity Consumption (meter_reading_daily)
+Target Measurement Unit,Kilowatt-hours per day (kWh/day)
+Total Processed Rows,"1,004,892"
+Total Screened Buildings,1440
+Total Unique Calendar Dates,731 (2016-01-01 to 2017-12-31)
+Full 24-Hour Days,"985,563 (98.08%)"
+Normalized 23-Hour Days,"19,329 (1.92%)"
+Incomplete Days Discarded (<23h),"47,748 (4.54%)"
+Mean Daily Electricity,3359.32 kWh/day
+Median Daily Electricity,1391.07 kWh/day
+Min Daily Electricity,0.00 kWh/day
+Max Daily Electricity,149109.91 kWh/day
+CSV File Size,140.53 MB
+Execution Runtime,31.35 seconds
